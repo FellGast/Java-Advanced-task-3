@@ -1,10 +1,10 @@
 package Sweets;
 
-public class Lolipop extends Sweet {
+public class Lollipop extends Sweet {
 
     private Double radius;
 
-    public Lolipop(String productName, Double price, Double weight, Double radius) {
+    public Lollipop(String productName, Double price, Double weight, Double radius) {
         super(productName, price, weight);
         this.radius = radius;
     }
@@ -19,6 +19,6 @@ public class Lolipop extends Sweet {
 
     @Override
     public String toString() {
-        return "Lolipop + [" + super.toString() + ", length = " + radius + "]";
+        return "Lollipop + [" + super.toString() + ", length = " + radius + "]";
     }
 }
